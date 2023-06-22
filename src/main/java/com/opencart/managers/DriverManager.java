@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverManager {
-    private static String webDriverType = "Chrome";
+    private static String webDriverType = "Firefox";
     private static DriverManager instance;
     private WebDriver driver;
 
